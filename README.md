@@ -15,6 +15,7 @@ Here are the two scenarios when there exist rich semantics among tasks, includin
 Experimental results on few-shot learning datasets with ResNet-12 backbone (Same as the [MetaOptNet](https://github.com/kjunelee/MetaOptNet)). We report average results with 10,000 randomly sampled few-shot learning episodes for stablized evaluation.
 
 **MiniImageNet Dataset**
+
 |  Setups  | 1-Shot 5-Way | 5-Shot 5-Way |
 |:--------:|:------------:|:------------:|
 |   MAML   |     58.37   |     69.76    |
