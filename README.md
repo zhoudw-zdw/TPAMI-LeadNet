@@ -8,7 +8,7 @@ One single instance could possess multiple portraits and reveal diverse relation
 
 Here are the two scenarios when there exist rich semantics among tasks, including the problem illustration (left) and the t-SNE of decomposed multiple conceptual embeddings by LeadNet (right). *Upper*: each task is annotated based on a certain concept and the same instance could be labeled differently in tasks. A contextualized model learned from the support set is asked to discern instances in the corresponding query set. *Lower*: the four-class instances in the support set are labeled by two concepts. The model should capture both concepts and handle two query sets jointly. 
 
-<img src='imgs/teaser.png' width='640' height='280'>
+
 
 ## Standard Few-shot Learning Results
 
