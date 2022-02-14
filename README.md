@@ -1,21 +1,20 @@
 # Contextualizing Multiple Tasks via Learning to Decompose
 
-The PyTorch code for LeadNet in the paper "Contextualizing Multiple Tasks via Learning to Decompose" (Submitted to NeurIPS 2021). 
+The PyTorch code for LeadNet in the paper "Contextualizing Multiple Tasks via Learning to Decompose". 
 
 ## Main idea of LeadNet
 
 One single instance could possess multiple portraits and reveal diverse relationships with others according to different contexts. Those ambiguities increase the difficulty of learning a generalizable model when there exists one concept or mixed concepts in a task. We propose a *general* approach Learning to Decompose Network (LeadNet) for both two cases, which *contextualizes* a model through meta-learning multiple maps for concepts discovery --- the representations of instances are decomposed and adapted *conditioned on the contexts*. Through taking a holistic view over multiple latent components over instances in a sampled pseudo task, LeadNet learns to automatically select the right concept via incorporating those **rich semantics inside and between objects**. LeadNet demonstrates its superiority in various applications, including exploring multiple views of confusing tasks, out-of-distribution recognition, and few-shot image classification.  
 
+Here are the two scenarios when there exist rich semantics among tasks, including the problem illustration (left) and the t-SNE of decomposed multiple conceptual embeddings by LeadNet (right). *Upper*: each task is annotated based on a certain concept and the same instance could be labeled differently in tasks. A contextualized model learned from the support set is asked to discern instances in the corresponding query set. *Lower*: the four-class instances in the support set are labeled by two concepts. The model should capture both concepts and handle two query sets jointly. 
 
-
-
+<img src='imgs/teaser.png' width='640' height='280'>
 
 ## Standard Few-shot Learning Results
 
 Experimental results on few-shot learning datasets with ResNet-12 backbone (Same as the [MetaOptNet](https://github.com/kjunelee/MetaOptNet)). We report average results with 10,000 randomly sampled few-shot learning episodes for stablized evaluation.
 
 **MiniImageNet Dataset**
-
 |  Setups  | 1-Shot 5-Way | 5-Shot 5-Way |
 |:--------:|:------------:|:------------:|
 |   MAML   |     58.37   |     69.76    |
