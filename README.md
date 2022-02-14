@@ -1,6 +1,6 @@
-# Contextualizing Multiple Tasks via Learning to Decompose
+# Contextualizing Meta-Learning via Learning to Decompose
 
-The PyTorch code for LeadNet in the paper "Contextualizing Multiple Tasks via Learning to Decompose". 
+The PyTorch code for LeadNet in the paper "Contextualizing Meta-Learning via Learning to Decompose". 
 
 ## Main idea of LeadNet
 
