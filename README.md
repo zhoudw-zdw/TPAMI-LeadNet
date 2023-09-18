@@ -1,6 +1,15 @@
 # Contextualizing Meta-Learning via Learning to Decompose
 
-The PyTorch code for LeadNet in the paper "Contextualizing Meta-Learning via Learning to Decompose". 
+The PyTorch code for LeadNet in the paper "[Contextualizing Meta-Learning via Learning to Decompose](https://arxiv.org/abs/2106.08112) (TPAMI 2023)". If you use any content of this repo for your work, please cite the following bib entry:
+
+       
+	@article{ye2023contextualizing,
+		title={Contextualizing Meta-Learning via Learning to Decompose},
+		author={Ye, Han-Jia and Zhou, Da-Wei and Hong, Lanqing and Li, Zhenguo and Wei, Xiu-Shen and Zhan, De-Chuan},
+		journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+		year={2023},
+		publisher={IEEE}
+	}
 
 ## Main idea of LeadNet
 
